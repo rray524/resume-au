@@ -123,9 +123,10 @@ section.main-background {
   font-size: 22px;
 }
 #scrollUp {
-  bottom: 79px!important;
-  right: 19px!important;
+  bottom: 17px !important;
 }
+
+
 }
 
 @media (min-width:320px) and (max-width: 767px) {
@@ -266,15 +267,10 @@ h6.testimonial-button {
   padding-bottom: 5px;
 }
 #scrollUp {
-  bottom: 68px!important;
-  right: 5px!important;
-
+  bottom: 9px !important;
 }
 .navbar-toggle {
   margin-top: 19px;
 }
-
-}
-@media (min-width:500px) and (max-width: 767px) {
 
 }

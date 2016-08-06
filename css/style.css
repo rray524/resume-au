@@ -385,6 +385,7 @@ section.qualify{background: url(../img/bg-main-2.jpg) no-repeat scroll center ce
 .action-button:hover,.action-button:focus{
   text-decoration: none;
   outline: none;
+  color: #fff;
 }
 .quality-img {
   text-align: center;

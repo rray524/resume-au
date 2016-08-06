@@ -2,8 +2,8 @@
 #scrollUp {
   background-image: url("../img/top.png");
   background-repeat: no-repeat;
-  bottom: 84px;
+  bottom: 12px;
   height: 38px;
-  right: 146px;
+  left: 70px;
   width: 38px;
 }
