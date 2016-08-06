@@ -384,6 +384,7 @@ section.qualify{background: url(../img/bg-main-2.jpg) no-repeat scroll center ce
 
 .action-button:hover,.action-button:focus{
   text-decoration: none;
+  outline: none;
 }
 .quality-img {
   text-align: center;
@@ -484,6 +485,7 @@ h6.testimonial-button {
   transform: translate(-50%, 0px);*/
   display: inline-block;
 }
+
 .acrp-img {
   padding-bottom: 20px;
   text-align: center;
