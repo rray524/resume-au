@@ -43,6 +43,9 @@ img {
 }
 /*end default*/
 /*nav bar css*/
+.navbar {
+  border-radius: 0;
+}
 .navbar-default {
   background-color: #2367ef;
   border-color: #2367ef;

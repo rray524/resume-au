@@ -1,1 +1,149 @@
-{\rtf1}
+@media (min-width:992px) and (max-width: 1199px) {
+.navbar-header {
+  width: 37%;
+}
+.media_image {
+  height: 243px;
+  width: 100%;
+}
+.action-button {
+  font-size: 19px;
+}
+
+
+
+
+
+
+
+
+}
+
+@media (min-width:768px) and (max-width: 991px) {
+.navbar-right {
+  margin-right: -44px;
+}
+.nav.navbar-nav.navbar-right a {
+  font-size: 14px;
+}
+.navbar-header {
+  width: 38%;
+}
+section.main-background {
+  background: rgba(0, 0, 0, 0) url("../img/bg-main.jpg") no-repeat scroll center center / 100% 100%;
+}
+
+.main-background-body h1 {
+  font-size: 41px;
+  font-weight: 700;
+  margin-top: 71px;
+}
+.main-background-body p.yellow {
+  font-size: 20px;
+}
+.main-background-body p {
+  font-size: 18px;
+}
+.main-background-body h4 {
+  font-size: 22px;
+}
+#enquiry {
+  font-size: 19px;
+   margin-bottom: 21px;
+ }
+.do-body h1 {
+  font-size: 41px;
+}
+.media_image {
+  height: 181px;
+  width: 100%;
+}
+.do-body-text p.bold-size {
+  font-size: 18px;
+  line-height: 24px;
+}
+.do-body-text p {
+  font-size: 18px;
+  line-height: 24px;
+}
+.do-body-text p.bold-size {
+  margin-top: 6px;
+}
+.do-body-text h4 {
+  font-size: 17px;
+}
+.qualify-body h1 {
+  font-size: 41px;
+}
+.bx-wrapper .testimonials-name {
+  font-size: 18px;
+}
+.testimonials-carousel-content > p {
+  font-size: 15px;
+}
+.action-button {
+  border-radius: 1px;
+  font-size: 13px;
+}
+.qualify h3 {
+  font-size: 19px;
+  margin: 29px 0;
+}
+.icon-txt {
+  font-size: 15px;
+  margin: 17px 0;
+  padding: 6px;
+}
+.test h1 {
+  font-size: 41px;
+}
+.test p {
+  font-size: 18px;
+}
+.testimonial .description {
+  font-size: 14px;
+}
+.contact_us h1 {
+  font-size: 41px;
+}
+.contact_us p {
+  font-size: 18px;
+}
+.text-center.assurement {
+  font-size: 19px;
+  margin: 17px 0;
+}
+.text-center.decorating {
+  font-size: 15px;
+}
+.copy p {
+  font-size: 15px;
+}
+
+
+}
+
+@media (min-width:320px) and (max-width: 767px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
