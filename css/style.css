@@ -107,7 +107,12 @@ main-background section
 -------------------------------- */
 
 section.main-background {
-    background: rgba(0, 0, 0, 0) url("../img/bg-main.jpg") no-repeat scroll center center / cover;
+    background: rgba(0, 0, 0, 0) url("../img/bg-main.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size:cover;
     position: relative;
 }
 
@@ -410,7 +415,12 @@ how we are qualified
 -------------------------------- */
 
 section.qualify {
-    background: url(../img/bg-main-2.jpg) no-repeat scroll center center / cover;
+    background: url(../img/bg-main-2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size:cover;
     position: relative;
 }
 
