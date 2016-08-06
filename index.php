@@ -12,7 +12,8 @@
   <link rel="shortcut icon" href="favicon.ico" />
   <!-- Fonts -->
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Vollkorn|Lato:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Vollkorn:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
   <!-- All css here -->
@@ -63,7 +64,7 @@
          </div>
          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right" >
-          <li class=""><a href="#hom" class="scroll">Home</a> </li>
+           <li class=""><a href="#hom" class="scroll">Home</a> </li>
            <li><a href="#work" class="scroll">What We Do</a> </li>
            <li><a href="#qual" class="scroll">Quality</a> </li>
            <li><a href="#monial" class="scroll">Testimonial</a> </li>
@@ -216,46 +217,47 @@
 </section>
 <section class="test" id="monial">
   <div class="container">
-   <div class="row">
-    <h1 class="text-center">Testimonial</h1>
-    <p class="text-center">Here are just a few amazing testimonials from some of our clients…</p>
-    <div class="col-sm-12 text-cntr">
-     <div id="testimonial-slider" class="owl-carousel">
-      <div class="testimonial">
-       <i class="icon">"</i>
-       <p class="description">
-        "Hi Sonia & Team Thank you for such a wonderful job with my Resume, Cover Letter and Selection Criteria. I appreciate all that you and your team have done for me. When I was reading through the documents last night I had butterflies in my stomach, happy little butterflies, thinking how wonderful it all is. THANKYOU!!! Tamika "
-      </p>
-      <div class="pic">
-        <img src="img/img-2.jpg" alt="tamalika_photo">
+    <div class="row">
+      <h1 class="text-center">Testimonial</h1>
+      <p class="text-center">Here are just a few amazing testimonials from some of our clients…</p>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 text-cntr">
+        <div id="testimonial-slider" class="owl-carousel">
+          <div class="testimonial">
+            <i class="icon">"</i>
+            <p class="description">
+              "Hi Sonia & Team Thank you for such a wonderful job with my Resume, Cover Letter and Selection Criteria. I appreciate all that you and your team have done for me. When I was reading through the documents last night I had butterflies in my stomach, happy little butterflies, thinking how wonderful it all is. THANKYOU!!! Tamika "
+            </p>
+            <div class="pic">
+              <img src="img/img-2.jpg" alt="tamalika_photo">
+            </div>
+            <h3 class="testimonial-title">Tamika Brisbane. QLD</h3>
+            <span class="post">Executive Support Officer-June 2016</span>
+          </div>
+
+          <div class="testimonial">
+            <i class="icon">"</i>
+            <p class="description">
+              ""I would like to thank you so much for the service you have provided and the speed in which you were able to do for me. I have no hesitation in recommending you and your Company to others." It's not everyday you come across a company like yours that delivers on the service they've promised! :) Thank you again! Kind regards, Cheryl.
+            </p>
+            <div class="pic">
+              <img src="img/img-1.jpg" alt="Tabatha_photo">
+            </div>
+            <h3 class="testimonial-title">Cheryl Narangba. QLD</h3>
+            <span class="post">Business Management</span>
+          </div>
+        </div>
       </div>
-      <h3 class="testimonial-title">Tamika Brisbane. QLD</h3>
-      <span class="post">Executive Support Officer-June 2016</span>
     </div>
-
-    <div class="testimonial">
-     <i class="icon">"</i>
-     <p class="description">
-      ""I would like to thank you so much for the service you have provided and the speed in which you were able to do for me. I have no hesitation in recommending you and your Company to others." It's not everyday you come across a company like yours that delivers on the service they've promised! :) Thank you again! Kind regards, Cheryl.
-    </p>
-    <div class="pic">
-      <img src="img/img-1.jpg" alt="Tabatha_photo">
+    <div class="row">
+    <div class="col-sm-12" style="text-align:center;">
+        <h6 class="testimonial-button">
+          <a href="http://www.allresumeservices.com.au/testimonials.php" target="_blank" class="action-button shadow animate blue">Click here for more Testimonial</a>
+        </h6>
+      </div>
     </div>
-    <h3 class="testimonial-title">Cheryl Narangba. QLD</h3>
-    <span class="post">Business Management</span>
   </div>
-</div>
-<div class="col-sm-12">
-  <h6 class="testimonial-button text-center">
-    <a href="http://www.allresumeservices.com.au/testimonials.php" target="_blank" class="action-button shadow animate blue">Click here for more Testimonial</a>
-  </h6>
-
-</div>
-<div class="col-sm-12">
-</div>
-</div>
-</div>
-</div>
 </section>
 <section class="contact_us" id="cont">
   <div class="container">
@@ -323,7 +325,7 @@
  });
 </script>
 <!--testimonial slider-->
-<script src="https://pagead2.googlesyndication.com/pub-config/r20160601/ca-pub-3311815518700050.js"></script><script 
+<script src="https://pagead2.googlesyndication.com/pub-config/r20160601/ca-pub-3311815518700050.js"></script> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
 <script>
  $(document).ready(function(){

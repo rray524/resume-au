@@ -79,7 +79,10 @@ img {
 .navbar-right {
   margin-top: 12px;
 }
-
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+  outline: none;
+  color: #fff;
+}
 /* -------------------------------- 
 main-background section
 -------------------------------- */
@@ -358,20 +361,19 @@ section.qualify{background: url(../img/bg-main-2.jpg) no-repeat scroll center ce
   -webkit-transition: all 0.1s;
 }
 
-.action-button
-{
-  position: relative;
-  padding: 10px 40px;
-  margin: 0px 10px 10px 0px;
-  float: left;
+.action-button {
   border-radius: 2px;
-  font-family: 'Open Sans', cursive;
+  color: #fff;
+  display: block;
+  float: left;
+  font-family: "Open Sans",cursive;
   font-size: 24px;
   font-weight: 700;
-  color: #FFF;
-  text-decoration: none;  
+  margin: 0 10px 10px 0;
+  padding: 10px 40px;
+  position: relative;
+  text-decoration: none;
 }
-
 .blue
 {
   background-color: #3498DB;
@@ -379,14 +381,8 @@ section.qualify{background: url(../img/bg-main-2.jpg) no-repeat scroll center ce
   text-shadow: 0px -2px #2980B9;
 }
 
-.action-button:active
-{
-  transform: translate(0px,5px);
-  -webkit-transform: translate(0px,5px);
-  border-bottom: 1px solid;
-  text-decoration: none;
-}
-.action-button:hover{
+
+.action-button:hover,.action-button:focus{
   text-decoration: none;
 }
 .quality-img {
@@ -482,8 +478,11 @@ testimonial section
   font-weight: 700;
 }
 h6.testimonial-button {
-  margin: 0 auto;
-  width: 44%;
+ /* bottom: 0;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, 0px);*/
+  display: inline-block;
 }
 .acrp-img {
   padding-bottom: 20px;
@@ -500,6 +499,9 @@ h6.testimonial-button {
   font-family: vollkorn;
   font-size: 19px;
   font-weight: 400;
+}
+.col-sm-12 .pos{
+  position: relative;
 }
 /* -------------------------------- 
 contact us section
@@ -561,8 +563,11 @@ footer section
 }
 .fltR > a:hover,.fltR > a:focus{
   text-decoration: none;
+  outline: none;
 }
-
+a#scrollUp:hover,a#scrollUp:focus {
+  outline: 0 none;
+}
 .copy p {
   color: #3498db;
   font-family: open sans;

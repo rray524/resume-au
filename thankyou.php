@@ -222,7 +222,7 @@
                         <span class="post">Business Management</span>
                   </div>
             </div>
-            <div class="col-sm-12">
+            <div class="col-sm-12 pos">
               <h6 class="testimonial-button text-center">
                     <a href="http://www.allresumeservices.com.au/testimonials.php" target="_blank" class="action-button shadow animate blue">Click here for more Testimonial</a>
               </h6>
