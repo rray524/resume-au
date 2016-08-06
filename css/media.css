@@ -119,31 +119,157 @@ section.main-background {
 .copy p {
   font-size: 15px;
 }
-
-
+.media_body h2 {
+  font-size: 22px;
+}
+#scrollUp {
+  bottom: 79px!important;
+  right: 19px!important;
+}
 }
 
 @media (min-width:320px) and (max-width: 767px) {
+.navbar-brand {
+  width: 81%;
+}
+.navbar-toggle {
+  border-radius: 0;
+  background-color: #222222;
+}
+.navbar-default .navbar-toggle,.navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:active {
+  border-color: #222222;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: #2367ef;
+}
+.navbar-collapse {
+  box-shadow: none;
+}
+.nav.navbar-nav.navbar-right a {
+  font-size: 12px;
+}
+section.main-background {
+  background: rgba(0, 0, 0, 0) url("../img/bg-main.jpg") no-repeat scroll center center / 100% 100%;
+}
+.main-background-body h1 {
+  font-size: 20px;
+  line-height: 32px;
+  margin-top: 35px;
+}
+.main-background-body p.yellow {
+  font-size: 17px;
+}
+.main-background-body p {
+  font-size: 16px;
+}
+.main-background-body h4 {
+  font-size: 19px;
+  margin-bottom: 12px;
+}
+#enquiry a {
+  font-size: 17px;
+}
+#enquiry {
+  font-size: 17px;
+  margin-bottom: 14px;
+}
+.do-body h1 {
+  font-size: 20px;
+}
+.media_image {
+  width: 100%;
+}
+.media {
+ width: 100%;
+}
+.do-body-text p.bold-size {
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+}
+.do-body-text p {
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+}
+.do-body-text p.bold-size {
+  margin-top: 1px;
+}
+.do-body-text h4 {
+  font-size: 16px;
+}
+.qualify-body h1 {
+  font-size: 20px;
+}
+.bx-wrapper .testimonials-name {
+  font-size: 16px;
+  margin-bottom: 11px;
+}
+.testimonials-carousel-content > p {
+  font-size: 14px;
+}
+.action-button {
+  border-radius: 0;
+  font-size: 13px;
 
+}
+.qualify h3 {
+  margin: 17px 0;
+}
 
+.qualify h3 {
+  font-size: 17px;
+  margin: 17px 0;
+}
+.bx-wrapper {
+  margin: 17px auto;
+}
+.icon-txt {
+  font-size: 14px;
+  margin: 9px 0;
+  padding: 10px;
+}
+.test h1 {
+  font-size: 20px;
+}
+.test p {
+  font-size: 16px;
+}
+.testimonial .description {
+  font-size: 14px;
+  line-height: 15px;
+}
+h6.testimonial-button {
+  width: 100%;
+}
+.contact_us h1 {
+  font-size: 20px;
+}
+.contact_us p {
+  font-size: 16px;
+}
+.fa {
+  font-size: 14px;
+}
+.text-center.assurement {
+  font-size: 16px;
+  margin: 15px 0;
+}
+.text-center.decorating {
+  font-size: 15px;
+}
+.copy p {
+  font-size: 14px;
+  padding-top: 5px;
+}
+.fltR {
+  padding-bottom: 5px;
+}
+#scrollUp {
+  bottom: 68px!important;
+  right: 5px!important;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 }
