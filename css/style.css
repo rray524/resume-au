@@ -110,8 +110,8 @@ section.main-background {
     background: rgba(0, 0, 0, 0) url("../img/bg-main.png");
     background-repeat: no-repeat;
     background-position: center center;
+    background-size: cover;
     -o-background-size: cover;
-    -moz-background-size: cover;
     -webkit-background-size:cover;
     position: relative;
 }
@@ -420,7 +420,6 @@ section.qualify {
     background-position: center center;
     background-size: cover;
     -o-background-size: cover;
-    -moz-background-size: cover;
     -webkit-background-size:cover;
     position: relative;
 }
