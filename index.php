@@ -305,6 +305,7 @@
             </div>
         </div>
     </section>
+    <!--bottom to top-->
     <a href="" id="scrollUp"></a>
     <!-- all js here -->
     <!-- jquery latest version -->
