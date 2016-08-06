@@ -1,16 +1,5 @@
-.example {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-transition: all .5s;
-    transition: all .5s;
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
-    background: -webkit-linear-gradient(top, white, black);
-    background: linear-gradient(to bottom, white, black);
-}/*-----------------------------------------------------------------------------------
+
+/*-----------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------
     
     CSS INDEX
@@ -23,6 +12,10 @@
 /*  1.  Theme default CSS
 /*----------------------------------------*/
 /*start default*/
+body {
+overflow-y: hidden;
+overflow-x: hidden;
+}
 html,
 body {
   height: 100%;
@@ -54,6 +47,7 @@ a {
 img {
 
 }
+
 /*end default*/
 /*nav bar css*/
 .navbar {
