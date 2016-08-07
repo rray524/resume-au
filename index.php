@@ -28,10 +28,12 @@
     <script src="js/modernizr-2.8.3.min.js"></script>
     <!-- normalize CSS -->
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
-    <!--tooltip css/js-->
+    <!--tooltip css-->
     <link rel="stylesheet" type="text/css" href="css/tooltip.css">
     <!--back to top css-->
     <link rel="stylesheet" href="css/image.css">
+    <!--animation css-->
+    <link rel="stylesheet" href="css/animate.min.css">
     <!--owl theme cdn css-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
@@ -62,7 +64,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class=""><a href="#hom" class="scroll">Home</a> </li>
-                    <li><a href="#work" class="scroll">What We Do</a> </li>
+                    <li><a href="#work" class="scroll">What We Offer</a> </li>
                     <li><a href="#qual" class="scroll">Quality</a> </li>
                     <li><a href="#monial" class="scroll">Testimonial</a> </li>
                     <li><a href="#cont" class="scroll">Contact Us</a> </li>
@@ -79,7 +81,7 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="main-background-body">
-                        <h1 class="text-center">Is Compiling Your Own Résumé <br> Doing Your Head-In?</h1>
+                        <h1 class="text-center animated wow zoomIn" data-wow-duration="2s">Is Compiling Your Own Résumé <br> Doing Your Head-In?</h1>
                         <p class="text-center yellow">Your Résumé Struggles Are About To END Right Here...</p>
                         <p class="text-center">Let's face it,your Résumé is THE "golden ticket" that has the power to not only help you land that dream job interview, but when done correctly, it can make you stand out from other job applicants. It really can be your ultimate ticket to job success.</p>
                         <p class="text-center">We'll Turn Your Dead-on-Arrival Résumé Into A Powerful Marketing Tool </p>
@@ -144,7 +146,7 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="do-body">
-                        <h1 class="text-center">Our works</h1>
+                        <h1 class="text-center animated wow zoomIn" data-wow-duration="2s">What We offer</h1>
                         <div class="col-sm-4">
                             <figure class="media">
                                 <img src="img/middle_side.jpg" alt="we_write_image" class="media_image">
@@ -177,49 +179,56 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <div class="qualify-body">
-                        <h1 class="text-center">How We're Qualified</h1>
-                        <div class="testimonials-slider">
-                            <div class="slide">
-                                <div class="testimonials-carousel-context">
-                                    <div class="testimonials-name">PROFESSIONAL EXPERIENCE</div>
-                                    <div class="testimonials-carousel-content">
-                                        <p>Expert Résumé and CV writers with professional experience in 60+ Fields</p>
-                                    </div>
-                                    <a href="http://www.allresumeservices.com.au/pricing-order.php" target="_blank" class="action-button shadow animate blue">Click here for our package</a>
+                    <div class="text-center">
+                        <h1 class="text-center animated wow zoomIn" data-wow-duration="2s">How We're Qualified</h1>
+                        <div class="col-sm-4">
+                            <div class="box-size animated wow bounceIn" data-wow-duration="2s">
+                                <div class="icon-area">
+                                    <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
                                 </div>
-                            </div>
-                            <div class="slide">
-                                <div class="testimonials-carousel-context">
-                                    <div class="testimonials-name">EXCLUSIVE QUALITY</div>
-                                    <div class="testimonials-carousel-content">
-                                        <p>Our Résumé s have the upper hand over others because of our exclusive ATS software Expertise</p>
-                                    </div>
-                                    <a href="http://www.allresumeservices.com.au/pricing-order.php" target="_blank" class="action-button shadow animate blue">Click here for our package</a>
-                                </div>
-                            </div>
-                            <div class="slide">
-                                <div class="testimonials-carousel-context">
-                                    <div class="testimonials-name">GUARANTEED RESULTS</div>
-                                    <div class="testimonials-carousel-content">
-                                        <p>We will work with you until you're 100% satisfied and have secured an Interview</p>
-                                    </div>
-                                    <a href="http://www.allresumeservices.com.au/pricing-order.php" target="_blank" class="action-button shadow animate blue">Click here for our package</a>
-                                </div>
-                            </div>
+                                <h5>PROFESSIONAL EXPERIENCE</h3>
+                            <p>Expert Résumé and CV writers with professional experience in 60+ Fields.</p>
                         </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="box-size animated wow bounceIn" data-wow-duration="2s" data-wow-delay="0.3s">
+                            <div class="icon-area">
+                                <i class="fa fa-certificate" aria-hidden="true"></i>
+                            </div>
+                            <h5>EXCLUSIVE QUALITY</h3>
+                            <p>Our Résumé s have the upper hand over others because of our exclusive ATS software Expertise.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="box-size animated wow bounceIn" data-wow-duration="2s" data-wow-delay="0.6s">
+                            <div class="icon-area">
+                                <i class="fa fa-check" aria-hidden="true"></i>
+                            </div>
+                            <h5>GUARANTEED RESULTS</h3>
+                            <p>We will work with you until you're 100% satisfied and have secured an Interview.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 alignment">
+                        <h6 class="testimonial-button">
+                            <a href="http://www.allresumeservices.com.au/pricing-order.php" target="_blank" class="action-button shadow animate blue">Click here for our package</a>
+                        </h6>
+                    </div>
+                    <div class="col-sm-12">
                         <h3 class="text-center">“We fully understand the pain and frustration you’re having with your Résumé and your job search…”</h3>
                         <div class="quality-img"><img src="img/resume_icon.png" alt="resume-logo"></div>
-                        <p class="text-center icon-txt">professional resume services Luckily, we know what it takes to help you finally get the Résumé you need, and the Résumé that’s going to get you the job you want. Here at All Résumé Services, our #1 passion is helping people just like yourself develop winning Résumé s and cover letters that are uniquely crafted to YOUR unique skills, talents and abilities…to help you stand out among the crowd! </p>
+                        <p class="text-center icon-txt">Expert cv providers, we know what it takes to help you finally get the Résumé you need, and the Résumé that’s going to get you the job you want. Here at All Résumé Services, our #1 passion is helping people just like yourself develop winning Résumé s and cover letters that are uniquely crafted to YOUR unique skills, talents and abilities…to help you stand out among the crowd! </p>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
+
     <section class="test" id="monial">
         <div class="container">
             <div class="row">
-                <h1 class="text-center">Testimonial</h1>
+                <h1 class="text-center animated wow zoomIn" data-wow-duration="2s">Testimonial</h1>
                 <p class="text-center">Here are just a few amazing testimonials from some of our clients…</p>
             </div>
             <div class="row">
@@ -263,7 +272,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <h1 class="text-center">Contact Us</h1>
+                    <h1 class="text-center animated wow zoomIn" data-wow-duration="2s">Contact Us</h1>
                     <p class="text-center">Contact Us today for more information or a free consultation:</p>
                     <div class="contact-details">
                         <i class="fa fa-phone" aria-hidden="true"><p>1300 655 358</p></i>
@@ -285,7 +294,7 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="copy">
-                        <p class="text-center">© 2016 All Resume Services</p>
+                        <p class="text-center animated wow zoomIn" data-wow-duration="2s" data-wow-delay="0.2s">© 2016 All Resume Services</p>
                     </div>
                     <div class="fltR">
                         <a href="https://www.facebook.com/allresumeservices/" title="Facebook" target="_blank">
@@ -305,7 +314,6 @@
             </div>
         </div>
     </section>
-    <!--bottom to top-->
     <a href="" id="scrollUp"></a>
     <!-- all js here -->
     <!-- jquery latest version -->
@@ -313,18 +321,7 @@
     <!-- bootstrap js -->
     <script src="js/bootstrap.min.js"></script>
     <!--tooltip js-->
-    <script src="js/tooltip.js"></script>
-    <script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
-    <script>
-    $('.testimonials-slider').bxSlider({
-        slideWidth: 800,
-        minSlides: 1,
-        maxSlides: 1,
-        slideMargin: 32,
-        auto: true,
-        autoControls: true
-    });
-    </script>
+    <script src="js/tooltip.js"></script> 
     <!--testimonial slider-->
     <script src="https://pagead2.googlesyndication.com/pub-config/r20160601/ca-pub-3311815518700050.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
@@ -406,6 +403,10 @@
     });
     </script>
     <script type="text/javascript" async="async" defer="defer" data-cfasync="false" src="https://mylivechat.com/chatinline.aspx?hccid=20512503"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+       new WOW().init();
+    </script>
 </body>
 
 </html>

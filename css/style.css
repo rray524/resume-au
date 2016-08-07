@@ -78,7 +78,7 @@ img {}
 .nav.navbar-nav.navbar-right a {
     color: #fff;
     font-family: open sans;
-    font-size: 19px;
+    font-size: 18px;
     font-weight: 600;
 }
 
@@ -424,145 +424,48 @@ section.qualify {
     position: relative;
 }
 
-.qualify-body h1 {
+.qualify h1 {
     color: #fff;
     font-family: Lato;
     font-size: 47px;
     font-weight: 700;
 }
-
-.bx-wrapper .testimonials-carousel-context {
-    overflow: hidden;
+.col-sm-12.alignment {
+  margin-top: 35px;
+  text-align: center;
 }
-
-.bx-wrapper .testimonials-name {
-    color: #fff;
-    font-family: vollkorn;
-    font-size: 21px;
-    font-weight: 400;
-    margin-bottom: 15px;
+/*quality icon*/
+.box-size {
+  background: rgba(255, 77, 77, 0.7) none repeat scroll 0 0;
+  padding: 43px;
+  text-align: center;
+   border-radius: 5px;
 }
-
-.testimonials-carousel-content > p {
-    color: #eee;
-    font-family: vollkorn;
-    font-size: 18px;
+.fa.fa-lightbulb-o {
+  font-size: 65px;
+  padding-right: 0;
 }
-
-.bx-wrapper span {
-    font-size: 11px;
-    margin-left: 10px;
-    color: #aaa;
-    font-family: Georgia, Arial, Helvetica, sans-serif;
-    font-style: italic;
+.fa.fa-certificate {
+  font-size: 65px;
+  padding-right: 0;
 }
-
-.bx-wrapper {
-    position: relative;
-    margin: 30px auto;
-    padding: 0;
-    width: 100%;
-    *zoom: 1;
+.fa.fa-check {
+  font-size: 65px;
+  padding-right: 0;
 }
-
-.bx-wrapper .slide {
-    padding: 0;
-    margin: 0;
-    display: block;
+.box-size > h5 {
+  font-family: Lato;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 700;
+  color: yellow;
+  margin: 45px 0;
 }
-
-.bx-wrapper .bx-viewport {
-    padding: 10px;
-    margin-left: 0;
-    z-index: 1;
-    width: 100%;
+.box-size > p {
+  color: #fff;
+  font-family: vollkorn;
+  font-size: 20px;
 }
-
-.bx-wrapper .bx-pager,
-.bx-wrapper .bx-controls-auto {
-    position: absolute;
-    display: none;
-    bottom: -30px;
-    width: 100%;
-}
-
-.bx-wrapper .bx-loading {
-    min-height: 50px;
-    background: url(images/bx_loader.gif) center center no-repeat #fff;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 2000;
-}
-
-.bx-wrapper .bx-pager {
-    text-align: center;
-    font-size: .85em;
-    font-weight: bold;
-    color: #666;
-    padding-top: 20px;
-}
-
-.bx-wrapper .bx-pager .bx-pager-item,
-.bx-wrapper .bx-controls-auto .bx-controls-auto-item {
-    display: inline-block;
-    *zoom: 1;
-    *display: inline;
-}
-
-.bx-wrapper .bx-pager.bx-default-pager a {
-    background: #666;
-    text-indent: -9999px;
-    display: block;
-    width: 10px;
-    height: 10px;
-    margin: 0 5px;
-    outline: 0;
-    border-radius: 5px;
-}
-
-.bx-wrapper .bx-pager.bx-default-pager a:hover,
-.bx-wrapper .bx-pager.bx-default-pager a.active {
-    background: #000;
-}
-
-.bx-wrapper .bx-next {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 30px;
-    border-left: 1px solid #ddd;
-    height: 30px;
-    cursor: pointer;
-    background: #ED3131 url(../img/caousel-next.png) no-repeat 0 0;
-}
-
-.bx-wrapper .bx-prev {
-    position: absolute;
-    top: 0px;
-    right: 30px;
-    border-right: 1px solid #ddd;
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-    background: #ED3131 url(../img/caousel-prev.png) no-repeat 0 0;
-}
-
-.bx-wrapper .bx-controls-direction a {
-    position: absolute;
-    top: 0;
-    margin-top: 0;
-    margin-right: 0px;
-    outline: 0;
-    width: 30px;
-    height: 30px;
-    text-indent: -9999px;
-    z-index: 9999;
-}
-
-
 /*button effect*/
 
 .animate {
@@ -574,7 +477,7 @@ section.qualify {
     border-radius: 2px;
     color: #fff;
     display: block;
-    float: left;
+    float: none;
     font-family: "Open Sans", cursive;
     font-size: 24px;
     font-weight: 700;
@@ -582,6 +485,7 @@ section.qualify {
     padding: 10px 40px;
     position: relative;
     text-decoration: none;
+    margin-right: 0;
 }
 
 .blue {

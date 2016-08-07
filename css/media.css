@@ -10,7 +10,9 @@
   font-size: 19px;
 }
 
-
+.box-size > p {
+  font-size: 18px;
+}
 
 
 
@@ -25,12 +27,10 @@
 }
 .nav.navbar-nav.navbar-right a {
   font-size: 14px;
+  padding: 12px;
 }
 .navbar-header {
   width: 38%;
-}
-section.main-background {
-  background: rgba(0, 0, 0, 0) url("../img/bg-main.jpg") no-repeat scroll center center / 100% 100%;
 }
 
 .main-background-body h1 {
@@ -75,12 +75,7 @@ section.main-background {
 .qualify-body h1 {
   font-size: 41px;
 }
-.bx-wrapper .testimonials-name {
-  font-size: 18px;
-}
-.testimonials-carousel-content > p {
-  font-size: 15px;
-}
+
 .action-button {
   border-radius: 1px;
   font-size: 13px;
@@ -88,6 +83,25 @@ section.main-background {
 .qualify h3 {
   font-size: 19px;
   margin: 29px 0;
+}
+.box-size {
+  padding: 6px;
+}
+.box-size > h5 {
+  font-size: 19px;
+  margin: 26px 0;
+}
+.box-size > p {
+  font-size: 16px;
+}
+.fa.fa-lightbulb-o {
+  font-size: 50px;
+}
+.fa.fa-certificate {
+  font-size: 50px;
+}
+.fa.fa-check {
+  font-size: 50px;
 }
 .icon-txt {
   font-size: 15px;
@@ -149,9 +163,7 @@ section.main-background {
 .nav.navbar-nav.navbar-right a {
   font-size: 12px;
 }
-section.main-background {
-  background: rgba(0, 0, 0, 0) url("../img/bg-main.jpg") no-repeat scroll center center / 100% 100%;
-}
+
 .main-background-body h1 {
   font-size: 20px;
   line-height: 32px;
@@ -202,13 +214,6 @@ section.main-background {
 .qualify-body h1 {
   font-size: 20px;
 }
-.bx-wrapper .testimonials-name {
-  font-size: 16px;
-  margin-bottom: 11px;
-}
-.testimonials-carousel-content > p {
-  font-size: 14px;
-}
 .action-button {
   border-radius: 0;
   font-size: 13px;
@@ -217,13 +222,32 @@ section.main-background {
 .qualify h3 {
   margin: 17px 0;
 }
-
+.box-size > h5 {
+  font-size: 16px;
+  margin: 17px 0;
+}
+.box-size > p {
+  font-size: 16px;
+}
 .qualify h3 {
   font-size: 17px;
   margin: 17px 0;
 }
-.bx-wrapper {
-  margin: 17px auto;
+.fa.fa-lightbulb-o {
+  font-size: 43px;
+}
+.fa.fa-certificate {
+  font-size: 43px;
+}
+.fa.fa-check {
+  font-size: 43px;
+}
+.box-size {
+  margin-bottom: 23px;
+  padding: 9px;
+}
+.col-sm-12.alignment {
+  margin-top: 14px;
 }
 .icon-txt {
   font-size: 14px;
