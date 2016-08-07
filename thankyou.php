@@ -57,7 +57,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="http://www.allresumeservices.com.au/landing-page/">
                     <img src="img/ars-logo.png" alt="logo">
                 </a>
             </div>
@@ -249,7 +249,7 @@
             </div>
         </div>
     </section>
-    <section class="footer">
+    <section class="footer" id="last-part">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">

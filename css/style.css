@@ -668,26 +668,21 @@ contact us section
 
 .contact-details {
     text-align: center;
+    position: relative;
 }
 
-.fa.fa-phone > p {
-    display: inline;
-    margin: 0;
-    padding: 0 0 0 14px;
-}
+
 
 .fa {
-    color: #3498db;
-    display: inline;
-    font-size: 23px;
-    padding-right: 20px;
-    text-rendering: auto;
+  color: #3498db;
+  font-size: 20px;
+  padding-right: 3px;
+  text-rendering: auto;
 }
-
-.fa.fa-envelope-o > p {
-    display: inline;
-    margin: 0;
-    padding: 0 0 0 14px;
+.viz {
+  display: inline;
+  font-family: open sans !important;
+  padding-right: 10px;
 }
 
 
