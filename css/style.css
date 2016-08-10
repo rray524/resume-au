@@ -12,7 +12,9 @@
 /*----------------------------------------*/
 
 
-/*  1.  Theme default CSS
+/*  1.  Theme default CSS*/
+
+
 /*----------------------------------------*/
 
 
@@ -60,8 +62,29 @@ a {
 
 img {}
 
-
+sub, sup {
+  font-size: 68%!important;
+  top: 0;
+}
 /*end default*/
+
+#popup {
+    width: 560px;
+    height: 360px;
+    background: #00CC33;
+    color: #fff;
+    padding: 20px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    margin-top: -500px;
+    margin-left: -250px;
+}
+
+#popup h1 {
+    margin: 0px;
+    padding: 0px;
+}
 
 
 /*nav bar css*/
@@ -86,11 +109,15 @@ img {}
     margin-bottom: 0;
     min-height: 78px;
 }
-
-.navbar-brand img {
-    width: 49%;
+.nav.navbar-nav.navbar-right {
+  margin-top: 16px;
 }
-
+.navbar-brand img {
+  width: 69%;
+}
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+  margin-top: -11px;
+}
 .navbar-right {
     margin-top: 12px;
 }
@@ -101,47 +128,71 @@ img {}
     color: #fff;
 }
 
+.navbar-brand,
+.navbar-brand:focus,
+.navbar-brand:active,
+.navbar-brand:hover {
+    outline: none;
+}
+
 
 /* -------------------------------- 
 main-background section
 -------------------------------- */
 
-section.main-background {
-    background: rgba(0, 0, 0, 0) url("../img/bg-main.png");
-    background-repeat: no-repeat;
-    background-position: center center;
+
+/*section.main-background {
+    background: url("../img/bg-main.png") no-repeat center center;
     background-size: cover;
     -o-background-size: cover;
+     -moz-background-size: cover;
     -webkit-background-size:cover;
-    position: relative;
+}*/
+
+.bg-overlay {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../img/bg-main.png");
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../img/bg-main.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: auto;
+    width: 100%;
 }
 
 .main-background-body h1 {
     color: #fff;
-    font-family: Lato;
-    font-size: 47px;
+    font-family: fjalla one;
+    font-size: 39px;
     font-weight: 700;
     line-height: 62px;
     margin-top: 147px;
 }
 
-.background-overlay {
-    background-attachment: scroll;
-    background-image: url("../img/overlay-pattern.png");
-    background-repeat: repeat;
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-}
+
+/*.background-overlay::after {
+  background-attachment: scroll;
+  background-image: url("../img/overlay-pattern.png");
+  background-repeat: repeat;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}*/
 
 .main-background-body p {
     color: #eee;
-    font-family: vollkorn;
+    font-family: Roboto Slab;
     font-size: 21px;
 }
 
+
+/*
 .main-background-body h4 {
     color: #fff;
     font-family: Lato;
@@ -149,9 +200,10 @@ section.main-background {
     font-weight: 400;
     margin-bottom: 28px;
 }
+*/
 
 .open > b {
-    color: #33ff33;
+    color: yellow;
 }
 
 .main-background-body p.yellow {
@@ -193,7 +245,6 @@ section.main-background {
 
 #enquiry a:hover {
     color: #d71717;
-    background-color: none;
 }
 
 .popup {
@@ -285,13 +336,13 @@ hr {
 
 
 /* -------------------------------- 
-what we do section
+what we offer
 -------------------------------- */
 
 .do-body h1 {
-    color: #000;
-    font-family: Lato;
-    font-size: 47px;
+    color: #4d0000;
+    font-family: fjalla one;
+    font-size: 34px;
     font-weight: 700;
 }
 
@@ -299,9 +350,23 @@ what we do section
     margin-top: 0 !important;
 }
 
+.bold-size.text-center.highlights {
+    font-size: 34px;
+    margin-bottom: 32px;
+}
+
+ul {
+    list-style-image: url('../img/sqpurple.gif');
+    text-align: left;
+}
+
+#point > li {
+    padding: 6px 0;
+}
+
 .do-body-text p.bold-size {
     color: #4d0000;
-    font-family: vollkorn;
+    font-family: Roboto Slab;
     font-size: 21px;
     font-weight: 700;
     line-height: 33px;
@@ -310,7 +375,7 @@ what we do section
 
 .do-body-text p {
     color: #4d0000;
-    font-family: vollkorn;
+    font-family: Roboto Slab;
     font-size: 21px;
     font-weight: 400;
     line-height: 33px;
@@ -404,9 +469,10 @@ what we do section
 
 .do-body-text h4 {
     color: #4d0000;
-    font-family: Lato;
+    font-family: Roboto Slab;
     font-size: 21px;
     font-weight: 700;
+    margin-bottom: 24px;
 }
 
 
@@ -414,58 +480,85 @@ what we do section
 how we are qualified
 -------------------------------- */
 
-section.qualify {
+
+/*section.qualify {
     background: url(../img/bg-main-2.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     -o-background-size: cover;
+     -moz-background-size: cover;
     -webkit-background-size:cover;
     position: relative;
+}*/
+
+.bg-overlay2 {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../img/bg-main-2.png");
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../img/bg-main-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: auto;
+    width: 100%;
 }
 
 .qualify h1 {
     color: #fff;
-    font-family: Lato;
-    font-size: 47px;
+    font-family: fjalla one;
+    font-size: 39px;
     font-weight: 700;
 }
+
 .col-sm-12.alignment {
-  margin-top: 35px;
-  text-align: center;
+    margin-top: 35px;
+    text-align: center;
 }
+
+
 /*quality icon*/
+
 .box-size {
-  background: rgba(255, 77, 77, 0.7) none repeat scroll 0 0;
-  padding: 43px;
-  text-align: center;
-   border-radius: 5px;
+    background: rgba(255, 77, 77, 0.7) none repeat scroll 0 0;
+    padding: 43px;
+    text-align: center;
+    border-radius: 5px;
 }
+
 .fa.fa-lightbulb-o {
-  font-size: 65px;
-  padding-right: 0;
+    font-size: 65px;
+    padding-right: 0;
 }
+
 .fa.fa-certificate {
-  font-size: 65px;
-  padding-right: 0;
+    font-size: 65px;
+    padding-right: 0;
 }
+
 .fa.fa-check {
-  font-size: 65px;
-  padding-right: 0;
+    font-size: 65px;
+    padding-right: 0;
 }
+
 .box-size > h5 {
-  font-family: Lato;
-  font-size: 27px;
-  font-style: normal;
-  font-weight: 700;
-  color: yellow;
-  margin: 45px 0;
+    font-family: Lato;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    color: yellow;
+    margin: 45px 0;
 }
+
 .box-size > p {
-  color: #fff;
-  font-family: vollkorn;
-  font-size: 20px;
+    color: #fff;
+    font-family: vollkorn;
+    font-size: 20px;
 }
+
+
 /*button effect*/
 
 .animate {
@@ -502,20 +595,22 @@ section.qualify {
 }
 
 .quality-img {
+    margin-bottom: 8px;
     text-align: center;
 }
 
 .qualify h3 {
-    color: yellow;
-    font-family: vollkorn;
+    color: #4d0000;
+    font-family: open sans;
     font-style: italic;
+    font-weight: 700;
     margin: 45px 0;
 }
 
 .icon-txt {
-    background: rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.7);
     color: #000;
-    font-family: vollkorn;
+    font-family: Roboto Slab;
     font-size: 18px;
     font-weight: 400;
     margin: 23px 0;
@@ -599,15 +694,16 @@ testimonial section
 /*end carousel*/
 
 .test h1 {
-    color: #000;
-    font-family: Lato;
-    font-size: 47px;
+    color: #4d0000;
+    font-family: fjalla one;
+    font-size: 39px;
+    font-style: normal;
     font-weight: 700;
 }
 
 .test p {
     color: #4d0000;
-    font-family: vollkorn;
+    font-family: Roboto Slab;
     font-size: 21px;
     font-weight: 700;
 }
@@ -627,14 +723,14 @@ h6.testimonial-button {
 
 .text-center.assurement {
     color: #fff;
-    font-family: Lato;
+    font-family: Roboto Slab;
     font-size: 21px;
     font-weight: 700;
     margin: 22px 0;
 }
 
 .text-center.decorating {
-    font-family: vollkorn;
+    font-family: Roboto Slab;
     font-size: 19px;
     font-weight: 400;
 }
@@ -654,14 +750,14 @@ contact us section
 
 .contact_us h1 {
     color: #fff;
-    font-family: Lato;
-    font-size: 47px;
+    font-family: fjalla one;
+    font-size: 39px;
     font-weight: 700;
 }
 
 .contact_us p {
     color: #eee;
-    font-family: vollkorn;
+    font-family: Roboto Slab;
     font-size: 21px;
     font-weight: 400;
 }
@@ -671,18 +767,16 @@ contact us section
     position: relative;
 }
 
-
-
 .fa {
-  color: #3498db;
-  font-size: 20px;
-  padding-right: 3px;
-  text-rendering: auto;
+    color: #3498db;
+    font-size: 20px;
+    padding-right: 3px;
 }
+
 .viz {
-  display: inline;
-  font-family: open sans !important;
-  padding-right: 10px;
+    display: inline;
+    font-family: Roboto Slab !important;
+    padding-right: 10px;
 }
 
 
@@ -721,7 +815,7 @@ a#scrollUp:focus {
     outline: 0 none;
 }
 
-.copy p {
+.copy h3 {
     color: #3498db;
     font-family: open sans;
     font-size: 17px;
